@@ -1,39 +1,69 @@
 SMS & Email Bomber 
 ====================
 
-A lightweight SMS &amp; Email Bomber, made in Python.
+A lightweight SMS &amp; Email Bomber, made in Python by the great cxdy
+and expanded upon by the lesser UncleBenis
 
 
 Requirements
 ====================
 
 Python 2.7.6
+or 
+Soon: Python 3.x
 
-A Text Editor
+(more than one preferred, since most SMS apps are threaded)
 
-A Gmail account (Cock.li is no longer supported due to a complaint)
+Add your email accounts to accounts.txt in the following format:
+
+youraddress@ser.ver:yourpassword
+
+OR
+
+ilovethedisabled@gmail.com:heilhotwheels
 
 Usage
 ====================
+1. With a file option passed to it, like such
 
-Run it.
-Use numbers to navigate.
+$ python smsbomber.py targetfile
+
+2. or, just by being called with
+
+$ python smsbomber.py
+
+For Method 1: See Target Files
+
+
+For Method 1:
+
+	1. Run it.
+	2. Follow the on-screen prompts.
+	3. Use numbers to navigate.
+
+
+Target Files
+===================
+
+To create a target file, see the syntax at the top of smsbomber.py
+
+
 
 Adding carriers
 ====================
 
 Carrier list can be found here; http://www.emailtextmessages.com/
 
-Remove the 'phonenumber' part!
+If you desire to add a carrier, find the last carrier in the list at the top and add one to it's number.
 
-Let's say we were going to add Boost Mobile.
+For example, the last carrier on the list should be 9. In this case, you will add to that list a 
 
-As you can see, the code is in numerical order. So, you'd go to line 61 and get to a new line, and type this:
+12. Carrier Name
+ 
 
-<pre><code>if carrier == 10:
-	carrier_attack = "@myboostmobile.com"</code></pre>
-	
-Notice how I changed the carrier number and the SMS gateway. As on the site, it was phonenumber@carrier.com. Remove that phone number part. The program puts the number you supply in. 
+and then you will go down to the carriers[] array, and add:
 
-You can do this as many times as you want! Add all of the carriers if you're feeling that ambitious. 
-Hey, maybe you'd like to commit it to the file? Go for it!
+, "txt.carrier.tld"
+
+
+If you would like any new carriers added to the main client, create an issue for it and I will add them. In the mean time, you can use the above format for adding them to your local branch.
