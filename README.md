@@ -22,6 +22,13 @@ OR
 
 ilovethedisabled@gmail.com:heilhotwheels
 
+Personal Appeal
+===================
+
+I must ask that you do NOT use cock.li. There are plenty of other services that you can use and using cock.li causes a lot
+of grief to vc, who provides a very useful service to all of us. Our community appreciates his work too much to abuse the service provided, so if you can
+donate to that service, and spread the love. Use gmail or something for your abuse needs, nobody likes google anymore, anyway. thanks, finn.
+
 Usage
 ====================
 1. With a file option passed to it, like such
