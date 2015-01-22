@@ -104,9 +104,8 @@ if len(sys.argv) > 1:
 # Basic Info Block
 if finished == 0:
 	print("Uncle Benis' SMS/Email Bomber \n\r")
-	print("Please ensure you have cock.li accounts  \n\r")
+	print("Please ensure you have email accounts  \n\r")
 	print("stored in accounts.txt \n \r")
-	print("No accounts? https://cock.li/register \n\r")
 
 
 	# Setting a limit on the madness
